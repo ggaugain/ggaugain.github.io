@@ -1,4 +1,4 @@
-<img src="data/innovation-icon.png" align="right" />
+<img src="/techno/data/innovation-icon.png" align="right" />
 
 # Technology One Pagers
 
