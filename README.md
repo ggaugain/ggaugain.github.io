@@ -7,7 +7,7 @@ I didn't invent anything so I might as well share them.
 * [Technology One Pagers](/techno/README.md)
 > Technology One Pagers are a single page summary of the technology to help people get up to speed on the basics as quickly as possible.
 
-* [Learning Path](/techno/README.md)
+* [Learning Path](/learn/README.md)
 > A Learning Path is a selection of informations for learners to progress through, mastering a particular subject or program.
 The essential difference between Technology One Pagers and Learning Path. It must lead you to deep dives on solution addressed.
 
