@@ -1,11 +1,11 @@
 # Apache NiFi
 
 **Table of contents**
-1. [What is Apache NiFi?](#what-is)
-2. [Apache NiFi basics: FlowFile, Processor, Connector](#basics)
-3. [When to use it or not to use it?](#when-to-used)
-4. [Apache NiFi: rest API](#rest-api)
-5. [Apache NiFi: Template](#template)
+1. [What is Apache NiFi?](#what-is-apache-nifi)
+2. [Apache NiFi basics: FlowFile, Processor, Connector](#apache-nifi-basics-flowfile-processor-connector)
+3. [When to use it or not to use it?](#when-to-use-it-or-not-to-use-it)
+4. [Apache NiFi: rest API](#apache-nifi-rest-api)
+5. [Apache NiFi: Template](#apache-nifi-template)
 6. [Alternatives](#alternatives)
 7. [Conceptual Diagram](#conceptual-diagram)
     1. [Functional architecture](#functional-architecture)
@@ -13,7 +13,7 @@
 8. [Build from scratch](#build-from-scratch)
 9. [Further Reading](#further-reading)
 
-## What is Apache NiFi? <a name="what-is"></a>
+## What is Apache NiFi?
 Apache NiFi is an open source data ingestion platform.
 
 It was developed by the NSA and is now maintained by the Apache Foundation.
@@ -21,7 +21,7 @@ It was developed by the NSA and is now maintained by the Apache Foundation.
 * 2015 - NiFi became an official part of the Apache suite of projects
 * Since then, every 6-8 weeks, Apache NiFi releases a new update
 
-## Apache NiFi basics: FlowFile, Processor, Connector <a name="basics"></a>
+## Apache NiFi basics: FlowFile, Processor, Connector
 The three key concepts of Apache NiFi are: **FlowFile** | **Processor** | **Connector**
 
 * FlowFile: it's the data
@@ -41,7 +41,7 @@ The three key concepts of Apache NiFi are: **FlowFile** | **Processor** | **Conn
 The link between the components can be represented as follows:
 <img src="/techno/data/apache-nifi/apache-nifi-link-between-components.png" />
 
-## When to use it or not to use it? <a name="when-to-used"></a>
+## When to use it or not to use it?
 The most common use case of Apache NiFi is for automating the flow of data between systems.
 * ex: JSON → Database, FTP → Hadoop, Kafka → ElasticSearch, etc.
 
@@ -55,12 +55,12 @@ The table below shows some cases of Apache NiFi use or in which context to avoid
 | Delivery of data to analytical platforms. | Processing of complex events |
 | Data enrichment and preparation <br /> - Conversion between different formats <br /> - Extraction / analysis <br /> - Data routing     |  Processing of complex events |
 
-## Apache NiFi: rest API <a name="rest-api"></a>
+## Apache NiFi: rest API
 Apache NiFi restAPI offers a set of endpoints allowing, among other things, to start and stop processors, monitor waiting files, query source data, etc.
 
 Each endpoint including their description are available here: https://nifi.apache.org/docs/nifi-docs/rest-api/index.html
 
-## Apache NiFi: Template <a name="template"></a>
+## Apache NiFi: Template
 Apache NiFi allows you to export or import part of a data stream (or the entire data stream).
 This model in XML format can then be shared allowing these building blocks to be shared in another NiFi instance.
 
@@ -68,7 +68,7 @@ Some templates are available here:
 * [Example Dataflow Templates](https://cwiki.apache.org/confluence/display/NIFI/Example+Dataflow+Templates)
 * [Hotonworks Gallery](https://github.com/hortonworks-gallery/nifi-templates/tree/master/templates)
 
-## Alternatives <a name="alternatives"></a>
+## Alternatives
 
 We can find different alternatives to Apache NiFi which may require more or less development depending on the needs in terms of data flow.
 * [StreamSets](https://github.com/streamsets)
@@ -79,15 +79,15 @@ We can find different alternatives to Apache NiFi which may require more or less
 * IBM Cloud - services: [Cloud Functions](https://www.ibm.com/cloud/functions) | [Event Streams](https://cloud.ibm.com/catalog/services/event-streams) | [DataStage ](https://www.ibm.com/products/infosphere-datastage)| etc.
 
 
-## Conceptual Diagram <a name="conceptual-diagram"></a>
-### Functional architecture <a name="functional-architecture"></a>
+## Conceptual Diagram
+### Functional architecture
 The diagram below shows a functional view of an Apache NiFi architecture with a representation of two flows (API & UI). <br />
 The notion of “repository” represents the data storage space which can be internal or external to the worker. <br />
 It should be noted that the FlowFile will be stored locally in the worker during its processing phase. <br />
 
 <img src="/techno/data/apache-nifi/apache-nifi-functional-architecture.png" />
 
-### Technical architecture <a name="technical-architecture"></a>
+### Technical architecture
 Apache NiFi can be deployed in 2 ways, on a single host or in a cluster on an instance or in a container. <br />
 The choice will be made according to storage needs, power over treatments and the desired availability. Please note that Apache Nifi and its components may be containerized. <br />
 
@@ -95,7 +95,7 @@ The diagram below is an example of hosting an Apache NiFi container on AWS <br /
 
 <img src="/techno/data/apache-nifi/apache-nifi-technical-architecture.png" />
 
-## Build from scratch <a name="build-from-scratch"></a>
+## Build from scratch
 Install Apache NiFi on debian step by step
 
 ```
@@ -128,6 +128,6 @@ bin/nifi.sh install
 http://<@IP>:8080/nifi
 ```
 
-## Further Reading <a name="further-reading"></a>
+## Further Reading
 * [Apache NiFi User Guide](https://nifi.apache.org/docs/nifi-docs/html/user-guide.html)
 * [Apache NiFi Expression Language Guide](https://nifi.apache.org/docs/nifi-docs/html/expression-language-guide.html)
