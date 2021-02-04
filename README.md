@@ -1,7 +1,4 @@
-# ggaugain.github.io - Documentations and Learning
+Source for learning path : https://ggaugain.github.io/ 
 
-Go to [Technology One Pagers](./techno-one-pagers.md)
-> Technology One Pagers are a single page summary of the technology that is used within the DevOPs teams to help people get up to speed on the basics as quickly as possible.
-
-Go to [Learning Path](./learning-path.md)
-> A Learning Path is a selection of courses for learners to progress through, mastering a particular subject or program.
+> When I search information on a technology or if I want to up skill on it; I used to create memos with a set of links and personal notes.
+> I didn't invent anything so I might as well share them.
