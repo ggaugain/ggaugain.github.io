@@ -4,6 +4,8 @@ When I search information on a technology or if I want to up skill on it; I used
 
 I didn't invent anything so I might as well share them.
 
+The IT world is fast; It is probably that some informations are not up to date. 
+
 * [Technology One Pagers](/techno/README.md)
 > Technology One Pagers are a single page summary of the technology to help people get up to speed on the basics as quickly as possible.
 
