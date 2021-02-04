@@ -21,7 +21,7 @@
 
 _example:_
 
-<img src="data/understanding-the-container-application-architecture.png" />
+<img src="/techno/data/understanding-the-container-application-architecture.png" />
 
 ## What is Red Hat Openshift? <a name="what-is"></a>
 Openshift is Red Hat open source container application platform for developing and hosting enterprise grade applications.
@@ -49,7 +49,7 @@ Openshift adds suport for developer tools such as
 * **API**: is API centric and has a rich and weel-documented set of API's that helps us easily integrate Openshift with our existing infrastructure.
 * **Governance**: provides out of the box support for projects teams and users to organize and manage access to applications.
 
-<img src="data/openshift/openshift-tools.png" />
+<img src="/techno/data/openshift/openshift-tools.png" />
 
 ## Openshift Architectural Overview <a name="architectural-diagram"></a>
 * Containers and images are the building blocks for deploying your applications.
@@ -57,7 +57,7 @@ Openshift adds suport for developer tools such as
 * Projects and users provide the space and means for communities to organize and manage their content together.
 * Deployments add expanded support for the software development and deployment lifecycle.
 
-<img src="data/openshift/openshift-architecture-components.png" />
+<img src="/techno/data/openshift/openshift-architecture-components.png" />
 
 ## Get started with Openshift <a name="example"></a>
 There are multiple options available to set up Openshift. Openshift can be installed on premises or hosted on public or private clouds.
@@ -65,7 +65,7 @@ There are multiple options available to set up Openshift. Openshift can be insta
 [Try your own clusters in the environment of your choice and learn about the possibilities of using a Red Hat Openshift
 ](https://www.openshift.com/try?extIdCarryOver=true&sc_cid=701f2000001Css5AAC)
 
-<img src="data/openshift/openshift-get-started.png" />
+<img src="/techno/data/openshift/openshift-get-started.png" />
 
 ## Alternatives <a name="alternatives"></a>
 We can find different alternatives to OpenShift with pros / cons, but this will mainly depend on your needs and integrations with other solutions.
@@ -93,7 +93,7 @@ Should consider OpenShift if;
 
 Developers and Operations are always looking at IT solutions from different, sometimes closed-minded, points of view. 
 
-<img src="data/openshift/k8s-vs-openshift.png" />
+<img src="/techno/data/openshift/k8s-vs-openshift.png" />
 
 _source: https://nordcloud.com/kubernetes-the-simple-way_
 
