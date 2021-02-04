@@ -1,0 +1,62 @@
+body
+{
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+	background-color: #eee;
+    margin: 0px;
+    padding: 0px;
+}
+
+a:link, a:visited, a:active, a:hover, td a:link, td a:visited, td a:active
+{
+	color: #00458B;
+	text-decoration: none;
+}
+
+#non-scrolling-section
+{
+	position: fixed;
+	padding-top: 10px;
+	width: 100%;
+	z-index: 500;
+	height: 100px;
+	min-width: 950px;
+}
+
+#scrolling-section
+{
+	position: relative;
+	overflow: auto;
+    width: 100%;
+    padding-top: 120px;
+    bottom: 0;
+    
+}
+
+.header
+{
+    background-color: #fff;
+    position: relative;
+    width: 98%;
+    height: 64px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #aaa;
+    z-index: 500;
+}
+
+.header-logo
+{
+    padding-top: 12px;
+	padding-left: 12px;
+}
+
+.header-text
+{
+    position: relative;
+    font-weight: 300;
+    top: -39px;
+    font-size: 210%;
+    color: #666;
+    left: 250px;
+}
