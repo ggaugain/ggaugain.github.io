@@ -11,3 +11,8 @@ The Learning Path should roughly follow this structure:
 * Examples (implementation, build & run, ...)
 * Further Reading (Blog Posts and Talk)
 
+## Contents
+
+| Content | Category |
+| ------ | ------ |
+| [Apache Kafka](/learn/apache-kafka/README.md) | stream-processing, event-processing |
