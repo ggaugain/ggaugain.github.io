@@ -1,3 +1,5 @@
+[Back](/techno/README.md)
+
 # Openshift
 
 **Table of contents**
@@ -64,7 +66,7 @@ There are multiple options available to set up Openshift. Openshift can be insta
 [Try your own clusters in the environment of your choice and learn about the possibilities of using a Red Hat Openshift
 ](https://www.openshift.com/try?extIdCarryOver=true&sc_cid=701f2000001Css5AAC)
 
-<img src="/techno/data/openshift/openshift-get-started.png" />
+<img src="/techno/data/openshift/openshift-get-started.png" width="60%" />
 
 ## Alternatives
 We can find different alternatives to OpenShift with pros / cons, but this will mainly depend on your needs and integrations with other solutions.
@@ -92,10 +94,12 @@ Should consider OpenShift if;
 
 Developers and Operations are always looking at IT solutions from different, sometimes closed-minded, points of view. 
 
-<img src="/techno/data/openshift/k8s-vs-openshift.png" />
+<img src="/techno/data/openshift/k8s-vs-openshift.png" width="60%" />
 
 _source: https://nordcloud.com/kubernetes-the-simple-way_
 
 ## Further Reading
 * [What’s in Red Hat OpenShift Service Mesh](https://www.openshift.com/learn/topics/service-mesh)
 * [Red Hat Ansible Automation Platform and Red Hat OpenShift](https://www.openshift.com/learn/topics/ansible)
+
+[Back](/techno/README.md)
