@@ -1,17 +1,16 @@
 # Openshift
 
 **Table of contents**
-1. [Understanding the Container Application Architecture?](#understanding-container)
-2. [What is Openshift?](#what-is)
+1. [Understanding the Container Application Architecture?](#understanding-the-container-application-architecture)
+2. [What is Openshift?](#what-is-red-hat-openshift)
 3. [Openshift Tools](#openshift-tools)
-4. [Openshift Architectural Overview](#architectural-diagram)
-5. [Openshift concepts - Projects and Users](#openshift-concept)
-6. [Get started with Openshift](#example)
-7. [Alternatives](#alternatives)
-8. [Kubernetes vs OpenShift](#k8s-vs-openshift)
-9. [Further Reading](#further-reading)
+4. [Openshift Architectural Overview](#openshift-architectural-overview)
+5. [Get started with Openshift](#get-started-with-openshift)
+6. [Alternatives](#alternatives)
+7. [Kubernetes vs OpenShift](#kubernetes-vs-openshift-a-namek8s-vs-openshift)
+8. [Further Reading](#further-reading)
 
-## Understanding the Container Application Architecture <a name="understanding-container"></a>
+## Understanding the Container Application Architecture
 * Containers as a way to package applications
 * Containers as a way to isolate applications (processes)
     * CPU
@@ -23,7 +22,7 @@ _example:_
 
 <img src="/techno/data/understanding-the-container-application-architecture.png" />
 
-## What is Red Hat Openshift? <a name="what-is"></a>
+## What is Red Hat Openshift?
 Openshift is Red Hat open source container application platform for developing and hosting enterprise grade applications.
 Openshift is Red Hat platform as a service offering.
 
@@ -40,7 +39,7 @@ Openshift is based on top of Docker containers and Kubernetes cluster manager, w
 * Kubernetes (or k8s) powers deployment and management of these Docker images across large clusters by providing self-healing and auto-scaling features.
 * Openshift builds on these technologies by providing a layer of tools that abstract the underlying Kubernetes and infrastructure management tasks, to help developers easily deploy and manage their applications on the Kubernetes based infrastructure.
 
-## Openshift Tools <a name="openshift-tools"></a>
+## Openshift Tools
 Openshift adds suport for developer tools such as
 * **SCM**: integration with Source Code Management softwares like GitLab.
 * **Pipeline**: integration with build pipelines that helps developers rapidly and consistently develop, build, test and deploy applications.
@@ -51,7 +50,7 @@ Openshift adds suport for developer tools such as
 
 <img src="/techno/data/openshift/openshift-tools.png" />
 
-## Openshift Architectural Overview <a name="architectural-diagram"></a>
+## Openshift Architectural Overview
 * Containers and images are the building blocks for deploying your applications.
 * Pods and services allow for containers to communicate with each other and proxy connections.
 * Projects and users provide the space and means for communities to organize and manage their content together.
@@ -59,7 +58,7 @@ Openshift adds suport for developer tools such as
 
 <img src="/techno/data/openshift/openshift-architecture-components.png" />
 
-## Get started with Openshift <a name="example"></a>
+## Get started with Openshift
 There are multiple options available to set up Openshift. Openshift can be installed on premises or hosted on public or private clouds.
 
 [Try your own clusters in the environment of your choice and learn about the possibilities of using a Red Hat Openshift
@@ -67,7 +66,7 @@ There are multiple options available to set up Openshift. Openshift can be insta
 
 <img src="/techno/data/openshift/openshift-get-started.png" />
 
-## Alternatives <a name="alternatives"></a>
+## Alternatives
 We can find different alternatives to OpenShift with pros / cons, but this will mainly depend on your needs and integrations with other solutions.
 Note that, Red Hat Openshift is emerging as one of the leaders in the cloud-native development platform space.
 * Rancher
@@ -75,7 +74,7 @@ Note that, Red Hat Openshift is emerging as one of the leaders in the cloud-nati
 * Docker Swarm
 * etc.
 
-## Kubernetes vs OpenShift <a name="k8s-vs-openshift"></a>
+## Kubernetes vs OpenShift
 To choose between Kubernetes and OpenShift a CTO/CIO should consider the following aspects.
 Should consider Kubernetes if;
 * Their company or companies are already using a mature Kubernetes platform or have existing knowledge of the Kubernetes product portfolio.
@@ -97,6 +96,6 @@ Developers and Operations are always looking at IT solutions from different, som
 
 _source: https://nordcloud.com/kubernetes-the-simple-way_
 
-## Further Reading <a name="further-reading"></a>
+## Further Reading
 * [What’s in Red Hat OpenShift Service Mesh](https://www.openshift.com/learn/topics/service-mesh)
 * [Red Hat Ansible Automation Platform and Red Hat OpenShift](https://www.openshift.com/learn/topics/ansible)
