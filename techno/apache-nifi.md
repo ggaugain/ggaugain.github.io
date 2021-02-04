@@ -39,7 +39,7 @@ The three key concepts of Apache NiFi are: **FlowFile** | **Processor** | **Conn
 * Connector: This is basically a queue of all FlowFiles that have not yet been processed by the Processor. It also allows you to define the priority rules of FlowFiles (which ones first, which ones not at all)
 
 The link between the components can be represented as follows:
-<img src="data/apache-nifi/apache-nifi-link-between-components.png" />
+<img src="/techno/data/apache-nifi/apache-nifi-link-between-components.png" />
 
 ## When to use it or not to use it? <a name="when-to-used"></a>
 The most common use case of Apache NiFi is for automating the flow of data between systems.
@@ -85,7 +85,7 @@ The diagram below shows a functional view of an Apache NiFi architecture with a 
 The notion of “repository” represents the data storage space which can be internal or external to the worker. <br />
 It should be noted that the FlowFile will be stored locally in the worker during its processing phase. <br />
 
-<img src="data/apache-nifi/apache-nifi-functional-architecture.png" />
+<img src="/techno/data/apache-nifi/apache-nifi-functional-architecture.png" />
 
 ### Technical architecture <a name="technical-architecture"></a>
 Apache NiFi can be deployed in 2 ways, on a single host or in a cluster on an instance or in a container. <br />
@@ -93,7 +93,7 @@ The choice will be made according to storage needs, power over treatments and th
 
 The diagram below is an example of hosting an Apache NiFi container on AWS <br />
 
-<img src="data/apache-nifi/apache-nifi-technical-architecture.png" />
+<img src="/techno/data/apache-nifi/apache-nifi-technical-architecture.png" />
 
 ## Build from scratch <a name="build-from-scratch"></a>
 Install Apache NiFi on debian step by step
