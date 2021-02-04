@@ -1,5 +1,6 @@
-<!-- docs/_sidebar.md -->
+<!-- _sidebar.md -->
 
 * [Home](/)
-* [Tech](guide.md)
-* [About me](guide.md)
+* [Technology One Pagers](/techno/README.md)
+* [Learning Path ](/learn/README.md)
+* [About me](/about-me.md)
