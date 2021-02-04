@@ -1,4 +1,5 @@
 <!-- docs/_sidebar.md -->
 
 * [Home](/)
-* [Guide](guide.md)
+* [Tech](guide.md)
+* [About me](guide.md)
