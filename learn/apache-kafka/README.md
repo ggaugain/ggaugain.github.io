@@ -87,12 +87,12 @@ Kafka is a hub that all components of an application can plug into to handle man
 * [Replace ZooKeeper with a Self-Managed Metadata Quorum (apache.org)](https://cwiki.apache.org/confluence/display/KAFKA/KIP-500%3A+Replace+ZooKeeper+with+a+Self-Managed+Metadata+Quorum)
 
 ## Examples
-* [Lab: Installing Apache Kafka and Zookeeper](./lab-installing-apache-kafka-and-zookeeper.md)
-* [Lab: Using Kafka Connect to Capture Data from a Relational Database](./lab-using-kafka-connect-to-capture-data-from-a-relational-database.md)
-* [Lab: Creating a Topic with Custom Configurations in Kafka](./lab-creating-topic-with-custom-configurations.md)
-* [lab: Back up Messages to an S3 Bucket in Kafka](./lab-backup-message-to-s3.md)
-* [Lab: Streaming Data Using Kafka Streams to Count Words](./lab-streaming-data-using-kafka-streams.md)
-* [Lab: Replicating Data Between Two Kafka Clusters](./lab-replicating-data-between-two-kafka-clusters.md)
+* <a href="#/learn/apache-kafka/lab-installing-apache-kafka-and-zookeeper">Lab: Installing Apache Kafka and Zookeeper</a>
+* <a href="#/learn/apache-kafka/lab-using-kafka-connect-to-capture-data-from-a-relational-database">Lab: Using Kafka Connect to Capture Data from a Relational Database</a>
+* <a href="#/learn/apache-kafka/lab-creating-topic-with-custom-configurations">Lab: Creating a Topic with Custom Configurations in Kafka</a>
+* <a href="#/learn/apache-kafka/lab-backup-message-to-s3">lab: Back up Messages to an S3 Bucket in Kafka</a>
+* <a href="#/learn/apache-kafka/lab-streaming-data-using-kafka-streams">Lab: Streaming Data Using Kafka Streams to Count Words</a>
+* <a href="#/learn/apache-kafka/lab-replicating-data-between-two-kafka-clusters">Lab: Replicating Data Between Two Kafka Clusters</a>
 * [Command-examples](./command-examples.md)
 * [Kafka Tutorials (Confluent.io)](https://kafka-tutorials.confluent.io/)
 
