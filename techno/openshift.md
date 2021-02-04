@@ -43,6 +43,7 @@ Openshift is based on top of Docker containers and Kubernetes cluster manager, w
 
 ## Openshift Tools
 Openshift adds suport for developer tools such as
+
 * **SCM**: integration with Source Code Management softwares like GitLab.
 * **Pipeline**: integration with build pipelines that helps developers rapidly and consistently develop, build, test and deploy applications.
 * **Registry**: helps manage Docker images of your application by providing a built in registry.
