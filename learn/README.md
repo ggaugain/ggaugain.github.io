@@ -1,6 +1,6 @@
 # Learning Path 
 
-> A Learning Path is a selection of courses for learners to progress through, mastering a particular subject or program.
+> A Learning Path is a selection of informations for learners to progress through, mastering a particular subject or program.
 The essential difference between Technology One Pagers and Learning Path. It must lead you to deep dives on solution addressed.
 
 The Learning Path should roughly follow this structure:
