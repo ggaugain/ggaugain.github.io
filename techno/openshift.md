@@ -70,6 +70,7 @@ There are multiple options available to set up Openshift. Openshift can be insta
 
 ## Alternatives
 We can find different alternatives to OpenShift with pros / cons, but this will mainly depend on your needs and integrations with other solutions.
+
 Note that, Red Hat Openshift is emerging as one of the leaders in the cloud-native development platform space.
 * Rancher
 * Gitlabs integrated CI
