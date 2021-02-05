@@ -16,6 +16,7 @@ for them.
 * AWS topics - <a href="https://twitter.com/awsgeek" target="_blank">Jerry Hargrove (@awsgeek)</a>
 * GCP topics - <a href="https://twitter.com/pvergadia" target="_blank">Priyanka Vergadia (@pvergadia)</a>
 * DevOps world - <img src="/data/flag_fr.png" /> <a href="https://www.youtube.com/c/xavki-linux/videos" target="_blank">xavki</a>
+* Cloud network of communities - <a href="https://www.reddit.com/" target="_blank">Reddit</a>
 
 ## Learn
 * <a href="https://acloudguru.com/" target="_blank">A Cloud Guru</a>
