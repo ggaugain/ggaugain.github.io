@@ -76,7 +76,7 @@ We can find different alternatives to OpenShift with pros / cons, but this will 
 * Docker Swarm
 * etc.
 
-Note that, Red Hat Openshift is emerging as one of the leaders in the cloud-native development platform space.
+> **_NOTE:_** Red Hat Openshift is emerging as one of the leaders in the cloud-native development platform space.
 
 ## Kubernetes vs OpenShift
 To choose between Kubernetes and OpenShift a CTO/CIO should consider the following aspects.
