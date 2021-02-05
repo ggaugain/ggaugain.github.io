@@ -82,6 +82,6 @@ There are many possibilities with Pulumi, 160+ Examples of Infrastructure, Conta
 ## Further Reading
 * [Steering Kubernetes on DigitalOcean With Pulumi](https://www.digitalocean.com/community/tech_talks/steering-kubernetes-on-digitalocean-with-pulumi)
 * [Deploying your first micro-service in AWS using Pulumi](https://medium.com/globant/deploying-your-first-micro-service-in-aws-using-pulumi-4fbbf68150e6)
-* <img src="/techno/data/flag_fr.png" /> [Pulumi - Stocker l'état de votre infrastructure dans un Azure Storage](https://woivre.fr/blog/2020/02/pulumi-stocker-letat-de-votre-infrastructure-dans-un-azure-storage)
+* <img src="/data/flag_fr.png" /> [Pulumi - Stocker l'état de votre infrastructure dans un Azure Storage](https://woivre.fr/blog/2020/02/pulumi-stocker-letat-de-votre-infrastructure-dans-un-azure-storage)
 
 [Back](/techno/README.md)

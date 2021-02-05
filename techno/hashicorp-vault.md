@@ -54,7 +54,7 @@ _source: [hashicorp.com](https://hashicorp.com/)_
 ### Kubernetes and static secrets
 <img src="/techno/data/hashicorp-vault/vault-kubernetes-and-static-secrets.png" />
 
-_Documentation support: <img src="/techno/data/flag_fr.png" /> https://blog.octo.com/deployer-ses-application-dans-kubernetes-avec-des-secrets-vault/_
+_Documentation support: <img src="/data/flag_fr.png" /> https://blog.octo.com/deployer-ses-application-dans-kubernetes-avec-des-secrets-vault/_
 
 ### Kubernetes and Dynamic Secrets
 A dynamic secret is generated on demand and is unique to a client, instead of a static secret,

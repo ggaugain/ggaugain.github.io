@@ -53,7 +53,7 @@ Kafka is a hub that all components of an application can plug into to handle man
        </tr>
        <tr>
            <td> </td>
-           <td><img src="/learn/data/flag_fr.png" /> <a href="https://www.youtube.com/watch?v=KWAELycyxTc&feature=youtu.be" target="_blank">Apache Kafka, de haut en bas by Devoxx FR (youtube)</a></td>
+           <td><img src="/data/flag_fr.png" /> <a href="https://www.youtube.com/watch?v=KWAELycyxTc&feature=youtu.be" target="_blank">Apache Kafka, de haut en bas by Devoxx FR (youtube)</a></td>
            <td><a href="#/learn/apache-kafka/lab-backup-message-to-s3">lab: Back up Messages to an S3 Bucket in Kafka</a></td>
            <td><a href="#/learn/apache-kafka/kafka-monitoring">Kafka Monitoring</a></td>
        </tr>
@@ -99,7 +99,7 @@ Kafka is a hub that all components of an application can plug into to handle man
 ## Blog Posts and Talks
 * [How Heroku Operates its Multi-Tenant Apache Kafka Services](https://blog.heroku.com/how-heroku-operates-its-multi-tenant-apache-kafka-services)
 * [Confluent.io online talks](https://www.confluent.io/online-talks)
-* <img src="/learn/data/flag_fr.png" /> [Apache Kafka, de haut en bas by Devoxx FR (youtube)](https://www.youtube.com/watch?v=KWAELycyxTc&feature=youtu.be)
+* <img src="/data/flag_fr.png" /> [Apache Kafka, de haut en bas by Devoxx FR (youtube)](https://www.youtube.com/watch?v=KWAELycyxTc&feature=youtu.be)
 
 ## Video tutorials
 * Kafka schema registry and rest-proxy - https://youtu.be/5fjw62LGYNg
