@@ -12,7 +12,7 @@ for them.
 * Governance: ITIL Foundation v3
 
 ## My inspiration
-
+* AWS topics - <a href="https://www.allthingsdistributed.com/" target="_blank">Werner Vogels' weblog</a>
 * AWS topics - <a href="https://twitter.com/awsgeek" target="_blank">Jerry Hargrove (@awsgeek)</a>
 * GCP topics - <a href="https://twitter.com/pvergadia" target="_blank">Priyanka Vergadia (@pvergadia)</a>
 * DevOps world - <img src="/data/flag_fr.png" /> <a href="https://www.youtube.com/c/xavki-linux/videos" target="_blank">xavki</a>
