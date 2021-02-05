@@ -14,4 +14,4 @@ The IT world is fast; It is probably that some informations are not up to date.
 The essential difference between Technology One Pagers and Learning Path. It must lead you to deep dives on solution addressed.
 
 
-<div align="center"><i>From markdown to website on the fly with <a href="https://docsify.js.org/">docsify</a></i></div>
+<div align="center"><i>From markdown to website on the fly with <a href="https://docsify.js.org/" target="_blank">docsify</a></i></div>
