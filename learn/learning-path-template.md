@@ -6,12 +6,11 @@ Introduce solution here
 **Table of contents**
 1. [From Zero to Hero!](#from-zero-to-hero)
 2. [Concepts](#concepts)
-3. [Documentation and Resources](#documentation)
+3. [Documentation and Resources](#documentation-and-resources)
 4. [Examples](#examples)
-5. [Blog Posts and Talks](#blog)
-6. [Video tutorials](#video)
-7. [Architecture and Advanced Concepts](#advanced-concepts)
-
+5. [Blog Posts and Talks](#blog-posts-and-talks)
+6. [Video tutorials](#video-tutorials)
+7. [Architecture and Advanced Concepts](#architecture-and-advanced-concepts)
 
 ## From Zero to Hero! <a name="from-zero-to-hero"></a>
 
@@ -52,19 +51,15 @@ Introduce solution here
        </tr>                  
    </tbody>
 </table>
-* Stage 1 Concepts is introductory material recommended.
-* Stage 2 Foundations will form the building blocks who want to “brush up” on their skills.
-* Stage 3 Core covers intermediate material which is about broadening skills, as well as learning Architecture best practices & patterns and beginning to understand the basics.
-* Stage 4 Deep Dives is for those who want to specialise.
 
-## Concepts <a name="concepts"></a>
+## Concepts
 
-## Documentation and Resources <a name="documentation"></a>
+## Documentation and Resources
 
-## Examples <a name="examples"></a>
+## Examples
 
-## Blog Posts and Talks <a name="blog"></a>
+## Blog Posts and Talks
 
-## Video tutorials <a name="video"></a>
+## Video tutorials
 
-## Architecture and Advanced Concepts <a name="advanced-concepts"></a>
+## Architecture and Advanced Concepts
