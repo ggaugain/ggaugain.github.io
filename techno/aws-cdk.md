@@ -19,7 +19,7 @@ AWS CDK will probably supersede CloudFormation in the next 10-15 years. The tool
 ## Documentation and Resources
 * <a href="https://docs.aws.amazon.com/cdk/latest/guide/awscdk.pdf" target="_blank">AWS CDK Developer Guide</a>
 * <a href="https://aws.amazon.com/fr/blogs/developer/aws-cdk-developer-preview/" target="_blank">Developer Preview Announcement</a>
-* <a href="" target="_blank">API Reference</a>
+* <a href="https://docs.aws.amazon.com/cdk/api/latest/" target="_blank">API Reference</a>
 * <a href="https://github.com/kevinslin/open-cdk" target="_blank">Open CDK Guide</a>
 * <a href="https://aws.amazon.com/fr/blogs/developer/" target="_blank">AWS Developer Blogs</a>
 * <a href="https://gitter.im/awslabs/aws-cdk" target="_blank">Gitter Channel</a>
@@ -36,7 +36,7 @@ We can find different alternatives to AWS CDK with pro/cons but it will mainly d
 
 ## Conceptual Diagram
 
-<img src="/techno/data/aws-cdk/cdk-conceptual-diagram.png" />
+<img src="/techno/data/aws-cdk/cdk-conceptual-diagram.png" width="60%" />
 
 ## Examples
 * <a href="https://cdkworkshop.com/" target="_blank">Create and deploy CDK applications</a>
