@@ -6,7 +6,7 @@
 
 -----------------
 
-# What is an Immutable Infrastructure?
+## What is an Immutable Infrastructure?
 
 In a traditional mutable server infrastructure, servers are continually updated and modified in place.
 
@@ -19,15 +19,16 @@ More information here:
 * [What is Mutable vs. Immutable Infrastructure?](https://www.hashicorp.com/resources/what-is-mutable-vs-immutable-infrastructure) | from: Hashicorp
 * [Immutable infrastructure vs. mutable infrastructure](https://www.ibm.com/cloud/learn/infrastructure-as-code#toc-immutable--RxgHAJ5m) | from: IBM
 
-<img src="/learn/iac/data/immutable-infrastructure-vs-mutable-infrastructure.png" />
+<img src="/learn/iac/data/immutable-infrastructure-vs-mutable-infrastructure.png" width="50%" />
 
 
-# What is an Immutable Server?
+
+## What is an Immutable Server?
 
 An immutable server doesn’t accept any change once it is launched and provisioned. Which means you can’t update your code or deploy new files to rollout an update for your application. To rollout an update, new servers group with the updated code will be created while destroying the old ones. This way, it becomes easier to auto scale your application with one true source (an AWS AMI) to launch new instances to meet your workload.
 
 No patching! No manual changes! Always Rebuild!
 
-<img src="/learn/iac/data/immutable-server.png" />
+<img src="/learn/iac/data/immutable-server.png" width="50%" />
 
 [Back](/learn/iac/README.md)
