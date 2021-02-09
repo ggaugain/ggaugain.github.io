@@ -77,7 +77,7 @@ IaC Key benefices [See. dzone.com article](/learn/iac/iac-key-benefits.md):
 
 IaC refers to the tools and processes used to track and manage infrastructure resources as code. This code is commonly stored in a version control system.
 
-<img src="/learn/iac/data/iac-concept.png" width="40%" />
+<img src="/learn/iac/data/iac-concept.png" width="30%" />
 
 ## Documentation and Resources
 * <a href="https://cloud.google.com/solutions/infrastructure-as-code#cards" target="_blank">Infrastructure as code (GCP)</a>
