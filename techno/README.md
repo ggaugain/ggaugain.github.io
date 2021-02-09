@@ -20,3 +20,4 @@ The One Pagers should roughly follow this structure:
 | [HashiCorp Terraform](/techno/hashicorp-terraform.md) | build, automation, infra as code |
 | [HashiCorp Packer](/techno/hashicorp-packer.md) | build, automation, infra as code |
 | [Pulumi](/techno/pulumi.md) | build, automation, infra as code |
+| [AWS Cloud Development Kit (AWS CDK)](/techno/aws-cdk.md) | build, automation, infra as code |
