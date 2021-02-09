@@ -54,10 +54,16 @@ _wikipedia definition_
        </tr>         
        <tr>
            <td></td>
-           <td><a href="#/learn/iac/introduction-to-packer">Introduction to Packer</a></td>
+           <td><a href="#/techno/hashicorp-packer">Introduction to Packer</a></td>
            <td></td>
            <td></td>
        </tr>      
+       <tr>
+           <td></td>
+           <td><a href="#/techno/aws-cdk">Introduction to AWS CDK</a></td>
+           <td></td>
+           <td></td>
+       </tr>
    </tbody>
 </table>
 
