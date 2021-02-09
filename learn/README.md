@@ -17,5 +17,5 @@ The Learning Path should roughly follow this structure:
 | ------ | ------ |
 | [Apache Kafka](/learn/apache-kafka/README.md) | stream-processing, event-processing |
 | [Infrastructure as Code (IaC)](/learn/iac/README.md) | build, automation  |
-| [Well Architected](./well-architected/README.md) | architecture, guidlines, best practices  |
-| [Blockchain](./blockchain/README.md) | blockchain |
+| [Well Architected](/learn/well-architected/README.md) | architecture, guidlines, best practices  |
+| [Blockchain](/learn/blockchain/README.md) | blockchain |
