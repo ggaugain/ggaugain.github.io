@@ -31,13 +31,13 @@
            <td><a href="https://www.youtube.com/watch?v=3rL0OIXbMio" target="_blank">How does Blockchain work?</a> (Youtube)</td>
            <td><a href="https://www.youtube.com/watch?v=dwow5hB3CNE" target="_blank">Hard forks & Soft Forks</a> (Youtube)</td>
            <td></td>
-           <td><a href="https://www.youtube.com/watch?v=nSojZrZSVGA" target="_blank">Blockchain Fundamentals: Cryptocurrency for the Masses</a> (Youtube)</td>
+           <td><a href="https://www.youtube.com/watch?v=0s23w5GUAeU" target="_blank">Ethereum Deep Dive - Blockchain for Developers</a> (Youtube)</td>
        </tr>
        <tr>
            <td><a href="https://www.youtube.com/watch?v=hYip_Vuv8J0" target="_blank">5 different levels of Blockchain Explanation</a> (Youtube)</td>
            <td><a href="https://www.youtube.com/watch?v=uFlJ6OEJ1Qs" target="_blank">Basic view of Game theory in Blockchain</a> (Youtube)</td>
            <td></td>
-           <td><a href="https://www.youtube.com/watch?v=0s23w5GUAeU" target="_blank">Ethereum Deep Dive - Blockchain for Developers</a> (Youtube)</td>
+           <td></td>
        </tr>
        <tr>
            <td></td>
