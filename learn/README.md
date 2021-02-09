@@ -11,6 +11,12 @@ The Learning Path should roughly follow this structure:
 * Examples (implementation, build & run, ...)
 * Further Reading (Blog Posts and Talk)
 
+The learning stages are broken down into 4 parts:
+* Stage 1 Concepts is introductory material recommended.
+* Stage 2 Foundations will form the building blocks who want to “brush up” on their skills.
+* Stage 3 Core covers intermediate material which is about broadening skills, as well as learning Architecture best practices & patterns and beginning to understand the basics.
+* Stage 4 Deep Dives is for those who want to specialise.
+
 ## Contents
 
 | Content | Category |
