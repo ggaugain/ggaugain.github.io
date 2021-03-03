@@ -5,15 +5,16 @@
 **Table of contents**
 1. [What is Apache NiFi?](#what-is-apache-nifi)
 2. [Apache NiFi basics: FlowFile, Processor, Connector](#apache-nifi-basics-flowfile-processor-connector)
-3. [When to use it or not to use it?](#when-to-use-it-or-not-to-use-it)
-4. [Apache NiFi: rest API](#apache-nifi-rest-api)
-5. [Apache NiFi: Template](#apache-nifi-template)
-6. [Alternatives](#alternatives)
-7. [Conceptual Diagram](#conceptual-diagram)
+3. [Apache NiFi basics: FlowFile, Processor, Connector](#a-drag-and-drop-approach)
+4. [When to use it or not to use it?](#when-to-use-it-or-not-to-use-it)
+5. [Apache NiFi: rest API](#apache-nifi-rest-api)
+6. [Apache NiFi: Template](#apache-nifi-template)
+7. [Alternatives](#alternatives)
+8. [Conceptual Diagram](#conceptual-diagram)
     1. [Functional architecture](#functional-architecture)
     2. [Technical architecture](#technical-architecture)
-8. [Build from scratch](#build-from-scratch)
-9. [Further Reading](#further-reading)
+9. [Build from scratch](#build-from-scratch)
+10. [Further Reading](#further-reading)
 
 ## What is Apache NiFi?
 Apache NiFi is an open source data ingestion platform.
@@ -42,6 +43,11 @@ The three key concepts of Apache NiFi are: **FlowFile** | **Processor** | **Conn
 
 The link between the components can be represented as follows:
 <img src="/techno/data/apache-nifi/apache-nifi-link-between-components.png" />
+
+## A drag and Drop Approach
+NiFi has an intuitive drag-and-drop UI and over a decade of development behind it, with a big focus on security and governance.
+
+<img src="/techno/data/apache-nifi/apache-nifi-flow-example.png" width="50%" />
 
 ## When to use it or not to use it?
 The most common use case of Apache NiFi is for automating the flow of data between systems.
@@ -133,5 +139,6 @@ http://<@IP>:8080/nifi
 ## Further Reading
 * [Apache NiFi User Guide](https://nifi.apache.org/docs/nifi-docs/html/user-guide.html)
 * [Apache NiFi Expression Language Guide](https://nifi.apache.org/docs/nifi-docs/html/expression-language-guide.html)
+* [MinIO Event Notification with Apache Nifi](https://blog.min.io/minio-events-with-apache-nifi/)
 
 [Back](/techno/README.md)
