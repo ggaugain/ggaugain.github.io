@@ -12,7 +12,7 @@
 3. [Example implementations](#example-implementations)
     1. [Kubernetes and static secrets](#kubernetes-and-static-secrets)
     2. [Kubernetes and Dynamic Secrets](#kubernetes-and-dynamic-secrets)
-4. [Further Reading](#further-reading)
+4. [Diving Deeper](#diving-deeper)
 
 ## Introduction
 ### What is HashiCorp Vault?
@@ -61,7 +61,7 @@ A dynamic secret is generated on demand and is unique to a client, instead of a 
 
 <img src="/techno/data/hashicorp-vault/vault-kubernetes-and-dynamic-secrets.png" />
 
-## Further Reading
+## Diving Deeper
 * [Vault: setting up Kubernetes auth and database secrets engine](https://medium.com/@jackalus/vault-kubernetes-auth-and-database-secrets-engine-6551d686a12)
 * [Identity-based Security and Low-trust Networks](https://www.hashicorp.com/identity-based-security-and-low-trust-networks)
 * [Dynamic Database Credentials with Vault and Kubernetes](https://www.hashicorp.com/blog/dynamic-database-credentials-with-vault-and-kubernetes)
