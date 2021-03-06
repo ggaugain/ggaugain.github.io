@@ -8,7 +8,7 @@
 3. [Alternatives](#alternatives)
 4. [Conceptual Diagram](#conceptual-diagram)
 5. [Examples](#examples)
-6. [Further Reading](#further-reading)
+6. [Diving Deeper](#diving-deeper)
 
 ## What is AWS CDK?
 AWS Cloud Development Kit (AWS CDK) is a CLI tool and a set of libraries. The CDK libraries let you define your AWS infrastructure by writing code in one of five supported programming languages: Typescript, Javascript, Java, Python and C#. The CDK CLI tool generates then CloudFormation templates from the code you’ve written and provisiones the infrastructure.
@@ -45,7 +45,7 @@ We can find different alternatives to AWS CDK with pro/cons but it will mainly d
 * <a href="https://github.com/aws/aws-cdk/tree/master/packages/%40aws-cdk" target="_blank">Github aws-cdk</a>
 * <a href="https://docs.aws.amazon.com/cloud9/latest/user-guide/sample-cdk.html" target="_blank">AWS CDK Sample for Cloud9</a>
 
-## Further Reading
+## Diving Deeper
 * AWS Online Tech Talks <a href="https://www.youtube.com/watch?v=ZWCvNFUN-sU" target="_blank">Infrastructure is Code with the AWS CDK</a> | Youtube
 * <a href="https://garbe.io/blog/2019/03/26/construct-your-own-cdk-construct-library/" target="_blank">How to Build a CDK Construct Library</a> | by Philipp Garbe
 * <a href="https://www.stefreitag.de/wp/2019/03/07/using-aws-cdk-for-code-pipeline-setup/)" target="_blank">Using the CDK for CodePipelines Setup</a> | by Stefan Freitag
