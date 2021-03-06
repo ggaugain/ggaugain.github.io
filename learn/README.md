@@ -24,4 +24,5 @@ The learning stages are broken down into 4 parts:
 | [Apache Kafka](/learn/apache-kafka/README.md) | stream-processing, event-processing |
 | [Infrastructure as Code (IaC)](/learn/iac/README.md) | build, automation  |
 | [Well Architected](/learn/well-architected/README.md) | architecture, guidlines, best practices  |
+| [Serverless Architecture](./serverless-architecture/README.md) | architecture, guidlines, best practices |
 | [Blockchain](/learn/blockchain/README.md) | blockchain |
