@@ -16,7 +16,6 @@ The One Pagers should roughly follow this structure:
 | ------ | ------ |
 | [Apache NiFi](/techno/apache-nifi.md) | Data management, ETL |
 | [Openshift](/techno/openshift.md) | application container platform |
-| [Podman](/techno/podman.md) | container engine |
 | [HashiCorp Vault](/techno/hashicorp-vault.md) | vault, security, secret |
 | [HashiCorp Terraform](/techno/hashicorp-terraform.md) | build, automation, infra as code |
 | [HashiCorp Packer](/techno/hashicorp-packer.md) | build, automation, infra as code |
