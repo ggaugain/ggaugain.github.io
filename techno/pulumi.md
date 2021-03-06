@@ -13,7 +13,7 @@ This page aims to provide general idea of how we can leverage Pulumi technology.
 5. [Are there any other alternatives?](#are-there-any-other-alternatives)
 6. [Conceptual Diagram](#conceptual-diagram)
 7. [Example implementations](#example-implementations)
-8. [Further Reading](#further-reading)
+8. [Diving Deeper](#diving-deeper)
 
 ## What is Pulumi?
 [Pulumi](https://www.pulumi.com/) is open source infrastructure as code SDK enables you to create, deploy, and manage infrastructure on any supported [Pulumi cloud providers](https://www.pulumi.com/docs/intro/cloud-providers/).
@@ -79,7 +79,7 @@ A comparison between different solutions is available here: <a href="#learn/iac/
 There are many possibilities with Pulumi, 160+ Examples of Infrastructure, Containers, Serverless, and Kubernetes
 * https://github.com/pulumi/examples
 
-## Further Reading
+## Diving Deeper
 * [Steering Kubernetes on DigitalOcean With Pulumi](https://www.digitalocean.com/community/tech_talks/steering-kubernetes-on-digitalocean-with-pulumi)
 * [Deploying your first micro-service in AWS using Pulumi](https://medium.com/globant/deploying-your-first-micro-service-in-aws-using-pulumi-4fbbf68150e6)
 * <img src="/data/flag_fr.png" /> [Pulumi - Stocker l'état de votre infrastructure dans un Azure Storage](https://woivre.fr/blog/2020/02/pulumi-stocker-letat-de-votre-infrastructure-dans-un-azure-storage)
