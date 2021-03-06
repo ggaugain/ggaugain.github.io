@@ -7,7 +7,7 @@
 2. [Alternatives](#alternatives)
 2. [Conceptual Diagram](#conceptual-diagram)
 3. [Example](#example)
-4. [Further Reading](#further-reading)
+4. [Diving Deeper](#diving-deeper)
 
 ## What is **_Techno_**
 
@@ -17,6 +17,6 @@
 
 ## Example
 
-## Further Reading
+## Diving Deeper
 
 [Back](/techno/README.md)
