@@ -1,3 +1,5 @@
+<img src="/techno/data/aws-cdk/aws-cdk-logo.png" align="right" width="20%" />
+
 [Back](/techno/README.md)
 
 # AWS Cloud Development Kit (AWS CDK)
