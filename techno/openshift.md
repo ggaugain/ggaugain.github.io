@@ -10,7 +10,7 @@
 5. [Get started with Openshift](#get-started-with-openshift)
 6. [Alternatives](#alternatives)
 7. [Kubernetes vs OpenShift](#kubernetes-vs-openshift-a-namek8s-vs-openshift)
-8. [Further Reading](#further-reading)
+8. [Diving Deeper](#diving-deeper)
 
 ## Understanding the Container Application Architecture
 * Containers as a way to package applications
@@ -100,7 +100,7 @@ Developers and Operations are always looking at IT solutions from different, som
 
 _source: https://nordcloud.com/kubernetes-the-simple-way_
 
-## Further Reading
+## Diving Deeper
 * [What’s in Red Hat OpenShift Service Mesh](https://www.openshift.com/learn/topics/service-mesh)
 * [Red Hat Ansible Automation Platform and Red Hat OpenShift](https://www.openshift.com/learn/topics/ansible)
 
