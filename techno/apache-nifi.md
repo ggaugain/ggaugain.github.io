@@ -14,7 +14,7 @@
     1. [Functional architecture](#functional-architecture)
     2. [Technical architecture](#technical-architecture)
 9. [Build from scratch](#build-from-scratch)
-10. [Further Reading](#further-reading)
+10. [Diving Deeper](#diving-deeper)
 
 ## What is Apache NiFi?
 Apache NiFi is an open source data ingestion platform.
@@ -136,7 +136,7 @@ bin/nifi.sh install
 http://<@IP>:8080/nifi
 ```
 
-## Further Reading
+## Diving Deeper
 * [Apache NiFi User Guide](https://nifi.apache.org/docs/nifi-docs/html/user-guide.html)
 * [Apache NiFi Expression Language Guide](https://nifi.apache.org/docs/nifi-docs/html/expression-language-guide.html)
 * [MinIO Event Notification with Apache Nifi](https://blog.min.io/minio-events-with-apache-nifi/)
