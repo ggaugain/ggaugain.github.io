@@ -1,3 +1,5 @@
+<img src="/techno/data/apache-nifi/nifi-logo.png" align="right" width="20%" />
+
 [Back](/techno/README.md)
 
 # Apache NiFi
