@@ -15,7 +15,7 @@ This page aims to provide general idea of how we can leverage Packer technology.
 8. [Are there any other alternatives?](#are-there-any-other-alternatives)
 9. [Conceptual Diagram](#conceptual-diagram)
 10. [Example implementations](#example-implementations)
-11. [Further Reading](#further-reading)
+11. [Diving Deeper](#diving-deeper)
 
 ## What is Packer?
 [Packer](https://www.packer.io/) is an automated build system to manage the creation of images for containers and virtual machines developed by [Hashicorp](https://www.hashicorp.com/). It outputs an image that you can then take and run on the platform you require.
@@ -123,7 +123,7 @@ Once our "packer build" has been executed we will find our AMI in EC2:
 
 From this image we can then launch one or more instances depending on our architecture, which makes it easy to create an application system image.
 
-## Further Reading
+## Diving Deeper
 * [github Packer](https://github.com/hashicorp/packer)
 * [Infrastructure-As-Code with HashiCorp Packer, VMware and VMware Cloud on AWS](https://cloud.vmware.com/community/2019/11/12/infrastructure-code-hashicorp-packer-vmware-vmware-cloud-aws/)
 * [Immutable Infrastructure Using Packer, Ansible, and Terraform](https://itnext.io/immutable-infrastructure-using-packer-ansible-and-terraform-7ca6f79582b8)
