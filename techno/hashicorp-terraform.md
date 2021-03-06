@@ -15,7 +15,7 @@ This page aims to provide general idea of how we can leverage Terraform technolo
     1. [Why Terraform and not used cloud providers solutions ?](#why-terraform-and-not-used-cloud-providers-solutions)
 5. [Conceptual Diagram](#conceptual-diagram)
 6. [Example implementations](#example-implementations)
-7. [Further Reading](#further-reading)
+7. [Diving Deeper](#diving-deeper)
 
 ## What is Terraform?
 [Terraform](https://www.terraform.io/docs/index.html) written in Golang (Go) is an open-source infrastructure as code software tool created by HashiCorp and can be help you to move from ClickOps to DevOps when we want to deploy Cloud services (AWS, Azure, GCP, IBM Cloud, Oracle Cloud, Etc.).
@@ -174,7 +174,7 @@ In this example there are four files you can use it for your own tests
 * <a href="https://raw.githubusercontent.com/ggaugain/ggaugain.github.io/main/techno/lab/hashicorp-terraform/terraform-intro-variables.tf" target="_blank">variables.tf</a>: variables parameters for Terraform
 * <a href="https://raw.githubusercontent.com/ggaugain/ggaugain.github.io/main/techno/lab/hashicorp-terraform/terraform-intro-outputs.tf" target="_blank">outputs.tf</a>: output values of ressources created (information are stored into tfstate file and terraform console)
 
-## Further Reading
+## Diving Deeper
 * [Using Terraform with Google Cloud](https://cloud.google.com/docs/terraform)
 * [Getting started with IBM Cloud Provider plug-in for Terraform](https://cloud.ibm.com/docs/terraform?topic=terraform-getting-started)
 * [Terraform: Beyond the Basics with AWS](https://aws.amazon.com/blogs/apn/terraform-beyond-the-basics-with-aws/)
