@@ -51,7 +51,7 @@ _wikipedia definition_
            <td><a href="#/learn/iac/iac-tools-comparison">IaC Tools comparison</a></td>
            <td></td>
            <td></td>
-       </tr>         
+       </tr>
        <tr>
            <td></td>
            <td><a href="#/techno/hashicorp-packer">Introduction to Packer</a></td>
