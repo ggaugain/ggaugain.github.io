@@ -7,7 +7,7 @@
 * I’m passionate about IT
 
 **Certifications**
-* Cloud: 6x AWS | 2x GCP
+* Cloud: 6x AWS | 2x GCP | 1x IBM Cloud
 * Governance: ITIL Foundation v3
 
 ## My inspiration
