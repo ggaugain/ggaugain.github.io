@@ -14,6 +14,7 @@ The One Pagers should roughly follow this structure:
 
 | Content | Category |
 | ------ | ------ |
+| [Apache Guacamole](/techno/apache-guacamole.md) | Clientless remote desktop gateway |
 | [Apache NiFi](/techno/apache-nifi.md) | Data management, ETL |
 | [Openshift](/techno/openshift.md) | application container platform |
 | [HashiCorp Vault](/techno/hashicorp-vault.md) | vault, security, secret |
