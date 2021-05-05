@@ -1,4 +1,4 @@
-<img src="/techno/data/apache-guacamole/guacamole-logo.png" align="right" width="20%" />
+<img src="/techno/data/apache-guacamole/guacamole-logo.png" align="right" width="10%" />
 
 [Back](/techno/README.md)
 
