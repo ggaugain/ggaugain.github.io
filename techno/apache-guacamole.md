@@ -11,7 +11,7 @@
 3. [Build from scratch](#build-from-scratch)
 4. [Diving Deeper](#diving-deeper)
 
-## What is  Apache Guacamole?**
+## What is  Apache Guacamole?
 Apache Guacamole is a browser based remote access tool that provides easy access to hosts in your VPC. Both Windows desktops (RDP) and Linux terminals (SSH) are supported. No client software needs to be installed, an HTML5 capable web browser is all you need.
 
 > Docs: https://guacamole.apache.org/
