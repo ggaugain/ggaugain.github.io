@@ -44,7 +44,7 @@ The adoption of Podman as the default container engine under RHEL 8 is a strong 
 
 ## Conceptual Diagram
 
-<img src="/techno/data/podman/podman-conceptual-diagram.png" align="center" width="50%" />
+<img src="/techno/data/podman/podman-conceptual-diagram.png" align="center" width="40%" />
 
 ## Example
 In this example we're going to create a pod and deploy an ngnix that doesn't do much.
