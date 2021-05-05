@@ -54,9 +54,10 @@ But above all, it is about showing the approach with Podman.
 * Then create your Pod with nginx
 
 ```
-Create the Pod myfirstpod which will be available on port 80.
+# Create the Pod myfirstpod which will be available on port 80.
 podman pod create --name myfirstpod -p 80:80
 
+# Deployed nginx
 podman run -dt --name nginx \
 --pod myfirstpod \
 --restart on-failure \
