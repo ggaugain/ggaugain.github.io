@@ -35,6 +35,9 @@ Podman brings with it the Pod system introduced by Kubernetes.
 
 Podman allows a simple transition from the local development environment to the Kubernetes production environment.
 
+**Podman Command**
+> Doc: http://docs.podman.io/en/latest/Commands.html
+
 ## Alternatives
 Podman can be a good alternative to [Docker](https://www.docker.com/)
 
@@ -47,25 +50,51 @@ The adoption of Podman as the default container engine under RHEL 8 is a strong 
 <img src="/techno/data/podman/podman-conceptual-diagram.png" align="center" width="40%" />
 
 ## Example
+* Start by installing Podman: [Podman Installation Instructions](https://podman.io/getting-started/installation.html)
+
+**Check podman version**
+```
+podman version
+```
+<img src="/techno/data/podman/test-podman-version.png" align="left" />
+
+Note: You can display information pertaining to the host, current storage stats, and build of podman.
+```
+podman info
+```
+
+**Test Podman installation (pull image)**
+Pull Alpine docker image.
+```
+podman pull alpine
+```
+
+<img src="/techno/data/podman/test-podman-setup.png" align="left" />
+
+**Podman simple test**
 In this example we're going to create a pod and deploy an ngnix that doesn't do much.
 But above all, it is about showing the approach with Podman.
 
-* Start by installing Podman: [Podman Installation Instructions](https://podman.io/getting-started/installation.html)
-* Then create your Pod with nginx
-
 ```
 # Create the Pod myfirstpod which will be available on port 80.
-podman pod create --name myfirstpod -p 80:80
+podman pod create --name firstpod -p 8080:80
 
 # Deployed nginx
 podman run -dt --name nginx \
---pod myfirstpod \
+--pod firstpod \
 --restart on-failure \
 docker.io/nginx
+
+# Test deployment
+curl localhost:8080
 ```
+
+<img src="/techno/data/podman/podman-test-ngnix.png" align="left" />
+
 
 ## Diving Deeper
 * [Transitioning from Docker to Podman](https://developers.redhat.com/blog/2020/11/19/transitioning-from-docker-to-podman/) | Red Hat Blog
 * [Podman and Buildah for Docker users](https://developers.redhat.com/blog/2019/02/21/podman-and-buildah-for-docker-users/) | Red Hat Blog
+* [Podman - The next generation of Linux container tools](https://developers.redhat.com/articles/podman-next-generation-linux-container-tools) | Red Hat Blog
 
 [Back](/techno/README.md)
