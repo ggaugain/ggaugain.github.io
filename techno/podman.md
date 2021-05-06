@@ -92,9 +92,7 @@ docker.io/nginx
 curl localhost:8080
 ```
 
-
-<img src="/techno/data/podman/podman-test-nginx.png" align="left" />
-
+<img src="/techno/data/podman/test-podman-ngnix.png" align="left" />
 
 
 ## Diving Deeper
