@@ -56,7 +56,9 @@ The adoption of Podman as the default container engine under RHEL 8 is a strong 
 ```
 podman version
 ```
-<img src="/techno/data/podman/test-podman-version.png" align="left" />
+
+<img src="/techno/data/podman/test-podman-version.png" align="left" width="20%" />
+
 
 Note: You can display information pertaining to the host, current storage stats, and build of podman.
 ```
@@ -70,6 +72,7 @@ podman pull alpine
 ```
 
 <img src="/techno/data/podman/test-podman-setup.png" align="left" />
+
 
 **Podman simple test**
 In this example we're going to create a pod and deploy an ngnix that doesn't do much.
@@ -89,7 +92,9 @@ docker.io/nginx
 curl localhost:8080
 ```
 
-<img src="/techno/data/podman/podman-test-ngnix.png" align="left" />
+
+<img src="/techno/data/podman/podman-test-nginx.png" align="left" />
+
 
 
 ## Diving Deeper
