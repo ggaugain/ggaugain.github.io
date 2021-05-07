@@ -8,7 +8,7 @@
 1. [What is Apache Guacamole?](#what-is-apache-guacamole)
 2. [Alternatives](#alternatives)
 2. [Conceptual Diagram](#conceptual-diagram)
-3. [Build from scratch](#build-from-scratch)
+3. [Example](#example)
 4. [Diving Deeper](#diving-deeper)
 
 ## What is  Apache Guacamole?
@@ -38,7 +38,7 @@ Apache Guacamole can be a good alternative to VPNs or Bastion hosts
 
 <img src="/techno/data/apache-guacamole/guacamole-architecture.png" />
 
-## Exemple
+## Example
 
 In this example, we will create an environment Apache Guacamole via docker-compose.
 
