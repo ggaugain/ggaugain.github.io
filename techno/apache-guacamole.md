@@ -38,63 +38,78 @@ Apache Guacamole can be a good alternative to VPNs or Bastion hosts
 
 <img src="/techno/data/apache-guacamole/guacamole-architecture.png" />
 
-## Build from scratch
-Lab install Apache Guacamole on RHEL step by step
+## Exemple
 
+In this example, we will create an environment Apache Guacamole via docker-compose.
+
+```Usage
+docker run --rm guacamole/guacamole /opt/guacamole/bin/initdb.sh --postgres > ./init/initdb.sql
+docker-compose up -d
 ```
-# Enable the EPEL Repository on RHEL 8 Linux
-sudo yum install epel-release -y
-sudo yum update -y
 
-# Install "Development Tools"
-sudo yum group install "Development Tools" -y
+```docker-compose.yml
+### docker-compose file for Apache Guacamole ###
+#
+# Usage:
+# docker run --rm guacamole/guacamole /opt/guacamole/bin/initdb.sh --postgres > ./init/initdb.sql
+# docker-compose up -d
+#
+# First login to Guacamole:
+#     Url: http://localhost:8080/guacamole
+#     Username: guacadmin
+#     Password: guacadmin
 
-# Install Git
-sudo yum install git -y
+version: '3.4'
 
-# Installing Apache Tomcat
-sudo yum -y install tomcat
-sudo yum -y install tomcat-webapps tomcat-admin-webapps 
-sudo systemctl enable tomcat
-sudo systemctl start tomcat
+networks:
+  guacnetwork_compose:
 
-# Installing Apache Guacamole & dependencies 
-## required-dependencies
-sudo yum install cairo-devel -y
-sudo yum install libjpeg-turbo-devel -y
-sudo yum install libjpeg-devel -y
-sudo yum install libpng-devel -y
-sudo yum install uuid -y
-
-## Optional dependencies
-sudo yum install freerdp -y
-sudo yum install pango-devel -y
-sudo yum install libssh2 -y
-sudo yum install libvncserver -y
-sudo yum install pulseaudio-libs-devel -y
-sudo yum install openssl-devel -y
-sudo yum install libvorbis -y
-sudo yum install libwebp-devel -y
-
-## Build: guacamole-server
-cd ~
-git clone https://github.com/apache/guacamole-server.git
-cd guacamole-server/
-autoreconf -fi
-./configure --with-init-dir=/etc/init.d
-sudo make
-sudo make install
-
-# Deploying Guacamole
-cd cd ~
-git clone http://github.com/apache/guacamole-client.git
-cd guacamole-client
-mvn package
-sudo cp ~/guacamole-client/guacamole/target/guacamole-1.1.0.war /var/lib/tomcat/webapps/guacamole.war
-sudo systemctl restart tomcat
-
-# Starting guacd
-sudo /etc/init.d/guacd start
+services:
+  # guacd
+  guacd:
+    container_name: guacd_compose
+    image: guacamole/guacd
+    networks:
+      guacnetwork_compose:
+    restart: always
+    volumes:
+    - ./drive:/drive:rw
+    - ./record:/record:rw
+  # postgres
+  postgres:
+    container_name: postgres_guacamole_compose
+    environment:
+      PGDATA: /var/lib/postgresql/data/guacamole
+      POSTGRES_DB: guacamole_db
+      POSTGRES_PASSWORD: ChangeMeNow
+      POSTGRES_USER: guacamole_user
+    image: postgres
+    networks:
+      guacnetwork_compose:
+    restart: always
+    volumes:
+    - ./init:/docker-entrypoint-initdb.d:ro
+    - ./data:/var/lib/postgresql/data:rw
+  # guacamole
+  guacamole:
+    container_name: guacamole_compose
+    depends_on:
+    - guacd
+    - postgres
+    environment:
+      GUACD_HOSTNAME: guacd
+      POSTGRES_DATABASE: guacamole_db
+      POSTGRES_HOSTNAME: postgres
+      POSTGRES_PASSWORD: ChangeMeNow
+      POSTGRES_USER: guacamole_user
+    image: guacamole/guacamole
+    links:
+    - guacd
+    networks:
+      guacnetwork_compose:
+    ports:
+    - 8080:8080/tcp
+    restart: always
 ```
 
 ## Diving Deeper
