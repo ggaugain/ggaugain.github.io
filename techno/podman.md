@@ -59,8 +59,7 @@ podman version
 
 <img src="/techno/data/podman/test-podman-version.png" align="left" width="20%" />
 
-
-Note: You can display information pertaining to the host, current storage stats, and build of podman.
+* Note: You can display information pertaining to the host, current storage stats, and build of podman.
 ```
 podman info
 ```
@@ -71,7 +70,7 @@ Pull Alpine docker image.
 podman pull alpine
 ```
 
-<img src="/techno/data/podman/test-podman-setup.png" align="left" />
+<img src="/techno/data/podman/test-podman-setup.png" align="left" width="50%" />
 
 
 **Podman simple test**
@@ -92,7 +91,7 @@ docker.io/nginx
 curl localhost:8080
 ```
 
-<img src="/techno/data/podman/test-podman-ngnix.png" align="left" />
+<img src="/techno/data/podman/test-podman-ngnix.png" align="left" width="50%" />
 
 
 ## Diving Deeper
