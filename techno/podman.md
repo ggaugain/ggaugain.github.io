@@ -57,12 +57,14 @@ The adoption of Podman as the default container engine under RHEL 8 is a strong 
 podman version
 ```
 
-<img src="/techno/data/podman/test-podman-version.png" align="left" width="20%" />
+<img src="/techno/data/podman/test-podman-version.png" width="20%" />
 
-* Note: You can display information pertaining to the host, current storage stats, and build of podman.
-```
+```markdown
+You can display information pertaining to the host, current storage stats, and build of podman.
+
 podman info
 ```
+
 
 **Test Podman installation (pull image)**
 Pull Alpine docker image.
@@ -70,7 +72,7 @@ Pull Alpine docker image.
 podman pull alpine
 ```
 
-<img src="/techno/data/podman/test-podman-setup.png" align="left" width="50%" />
+<img src="/techno/data/podman/test-podman-setup.png" width="50%" />
 
 
 **Podman simple test**
@@ -78,7 +80,7 @@ In this example we're going to create a pod and deploy an ngnix that doesn't do 
 But above all, it is about showing the approach with Podman.
 
 ```
-# Create the Pod myfirstpod which will be available on port 80.
+# Create the Pod 'firstpod' which will be available on port 8080.
 podman pod create --name firstpod -p 8080:80
 
 # Deployed nginx
@@ -91,7 +93,8 @@ docker.io/nginx
 curl localhost:8080
 ```
 
-<img src="/techno/data/podman/test-podman-ngnix.png" align="left" width="50%" />
+Output:
+<img src="/techno/data/podman/test-podman-ngnix.png" width="50%" />
 
 
 ## Diving Deeper
