@@ -39,7 +39,7 @@ Each of the three words in the acronym DAG corresponds to a property of these ta
 * **Acyclic** - tasks are not allowed to create self-referenced data in order to avoid creating endless loops
 * **Graph** - the tasks are presented in a clear structure indicating their relationships.
 
-<img src="/techno/data/apache-airflow/airflow-dag-concept.png" width="20%" />
+<img src="/techno/data/apache-airflow/airflow-dag-concept.png" width="30%" />
 
 ### Tasks
 Each node of a DAG represents a task. It is a visual representation of the jobs in progress, at each stage of the workflow. <br />
@@ -101,7 +101,7 @@ The Scheduler and Executor send tasks to a queue for Worker processes to perform
 The Webserver runs (often-times running on the same machine as the Scheduler) and communicates with the database to render task state and Task Execution Logs in the Web UI. <br />
 Each colored box indicates that each component can exist in isolation from the other components, depending on the type of deployment configuration.
 
-<img src="/techno/data/apache-airflow/airflow-architecture.png" />
+<img src="/techno/data/apache-airflow/airflow-architecture.png" width="50%" />
 
 ## Example
 ### Step 1: running Airflow in Docker
