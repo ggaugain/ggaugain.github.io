@@ -14,13 +14,14 @@ The One Pagers should roughly follow this structure:
 
 | Content | Category |
 | ------ | ------ |
-| [Apache Guacamole](/techno/apache-guacamole.md) | Clientless remote desktop gateway |
-| [Apache NiFi](/techno/apache-nifi.md) | Data management, ETL |
-| [Openshift](/techno/openshift.md) | application container platform |
+| [Apache Airflow](/techno/apache-airflow.md) | open source workflow management platform |
+| [Apache Guacamole](/techno/apache-guacamole.md) | clientless remote desktop gateway |
+| [Apache NiFi](/techno/apache-nifi.md) | data management, ETL |
+| [AWS Cloud Development Kit (AWS CDK)](/techno/aws-cdk.md) | build, automation, infra as code |
 | [Podman](/techno/podman.md) | container engine |
 | [HashiCorp Vault](/techno/hashicorp-vault.md) | vault, security, secret |
 | [HashiCorp Terraform](/techno/hashicorp-terraform.md) | build, automation, infra as code |
 | [HashiCorp Packer](/techno/hashicorp-packer.md) | build, automation, infra as code |
-| [Pulumi](/techno/pulumi.md) | build, automation, infra as code |
-| [AWS Cloud Development Kit (AWS CDK)](/techno/aws-cdk.md) | build, automation, infra as code |
 | [k6](/techno/k6.md) | load testing |
+| [Openshift](/techno/openshift.md) | application container platform |
+| [Pulumi](/techno/pulumi.md) | build, automation, infra as code |
