@@ -101,7 +101,7 @@ The Scheduler and Executor send tasks to a queue for Worker processes to perform
 The Webserver runs (often-times running on the same machine as the Scheduler) and communicates with the database to render task state and Task Execution Logs in the Web UI. <br />
 Each colored box indicates that each component can exist in isolation from the other components, depending on the type of deployment configuration.
 
-<img src="/techno/data/apache-airflow/airflow-architecture.png" width="50%" />
+<img src="/techno/data/apache-airflow/airflow-architecture.png" width="30%" />
 
 ## Example
 ### Step 1: running Airflow in Docker
@@ -118,7 +118,7 @@ The webserver available at: http://localhost:8080 <br />
 The default account has the login airflow and the password airflow.<br /> <br /> 
 Once logged in you should see examples of DAGs which are proposed during deployment in the docker-compose.yaml file (var: AIRFLOW__CORE__LOAD_EXAMPLES)
 
-<img src="/techno/data/apache-airflow/airflow-docker-example-02.png" />
+<img src="/techno/data/apache-airflow/airflow-docker-example-02.png" width="30%" />
 
 ## Diving Deeper
 * [Airflow in Practice Stop Worrying Start Loving DAGs](https://www.youtube.com/watch?v=XD7euLOzKbs) | Youtube
