@@ -39,12 +39,52 @@ Each of the three words in the acronym DAG corresponds to a property of these ta
 * **Acyclic** - tasks are not allowed to create self-referenced data in order to avoid creating endless loops
 * **Graph** - the tasks are presented in a clear structure indicating their relationships.
 
-<img src="/techno/data/apache-airflow/airflow-dag-concept.png" width="50%" />
+<img src="/techno/data/apache-airflow/airflow-dag-concept.png" width="20%" />
 
 ### Tasks
 Each node of a DAG represents a task. It is a visual representation of the jobs in progress, at each stage of the workflow. <br />
 The jobs represented are defined by the operators.
 
+### Operators
+Operators are what actually execute scripts, commands, and other operations when a Task is run.
+There a number of operators that ship with Airflow, as well as countless custom ones created by the Airflow community.<br />
+Below are some of the most common operators:
+* BashOperator
+* PythonOperator
+* SimpleHttpOperator
+* EmailOperator
+* MySqlOperator, PostgresOperator, and other database specific operators for executing SQL commands
+
+### Database
+Airflow requires a database to store all the metadata related to the execution history of each task and DAG and more.<br />
+By default, Airflow uses a SQLite database but you can point it to a MySQL or PostgreSQL.
+
+### Scheduler
+The Scheduler is constantly monitoring DAGs and tasks and running any that have have been scheduled to run or have had their dependencies met.
+
+### Executers
+Executors are what Airflow uses to run tasks that the Scheduler determines are ready to run.<br />
+By default, Airflow uses the SequentialExecutor, but it is possible to used the [CeleryExecutor](https://airflow.apache.org/docs/apache-airflow/stable/executor/celery.html), [DaskExecutor](https://airflow.apache.org/docs/apache-airflow/stable/executor/dask.html), or [KubernetesExecutor](https://airflow.apache.org/docs/apache-airflow/stable/executor/kubernetes.html) to run tasks in parallel or distributed on several workers.<br />
+The kubernetes executor is introduced in Apache Airflow 1.10.0. The Kubernetes executor will create a new pod for every task instance.<br />
+When a DAG submits a task, the KubernetesExecutor requests a worker pod from the Kubernetes API. The worker pod then runs the task, reports the result, and terminates.
+
+<img src="/techno/data/apache-airflow/airflow-k8s-worker.png" />
+
+In contrast to the CeleryExecutor, the KubernetesExecutor does not require additional components such as Redis, but does require the Kubernetes infrastructure.
+
+### Workers
+These are the processes that actually execute the logic of tasks, and are determined by the Executor being used.
+
+### Web Server
+The Airflow UI makes it easy to monitor and troubleshoot data pipelines with some of the features and visualizations availables.<br />
+Below are some screenshots taken from the [Apache Airflow](https://airflow.apache.org/docs/apache-airflow/stable/ui.html) documentation.
+
+<img src="/techno/data/apache-airflow/airflow-web-server.png" />
+
+### Command Line Interface
+In addition to the Scheduler and Web UI, Airflow has a very rich command line interface that allows for many types of operation on a DAG, starting services, and supporting development and testing.<br />
+
+For more information on CLI commands, see [Command Line Interface and Environment Variables Reference](https://airflow.apache.org/docs/apache-airflow/stable/cli-and-env-variables-ref.html)
 
 ## Alternatives
 
@@ -56,10 +96,32 @@ We can find different alternatives to Apache Airflow which may require more or l
 * IBM Cloud - services: [Cloud Functions](https://www.ibm.com/cloud/functions) | [Event Streams](https://cloud.ibm.com/catalog/services/event-streams) | [DataStage ](https://www.ibm.com/products/infosphere-datastage)| etc.
 
 ## Conceptual Diagram
+Airflow’s operation is built atop a Metadata Database which stores the state of tasks and workflows (i.e. DAGs).<br /> 
+The Scheduler and Executor send tasks to a queue for Worker processes to perform. <br/>
+The Webserver runs (often-times running on the same machine as the Scheduler) and communicates with the database to render task state and Task Execution Logs in the Web UI. <br />
+Each colored box indicates that each component can exist in isolation from the other components, depending on the type of deployment configuration.
+
+<img src="/techno/data/apache-airflow/airflow-architecture.png" />
 
 ## Example
+### Step 1: running Airflow in Docker
+
+Apache Airflow required some components and setup information are available to website. You can used docker-compose for your tests.
+* https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html
+
+At the end of the deployment you should have a bunch of containers up on your system:
+
+<img src="/techno/data/apache-airflow/airflow-docker-example-01.png" />
+
+### Step 2: Airflow access via a browser
+The webserver available at: http://localhost:8080 <br /> 
+The default account has the login airflow and the password airflow.<br /> <br /> 
+Once logged in you should see examples of DAGs which are proposed during deployment in the docker-compose.yaml file (var: AIRFLOW__CORE__LOAD_EXAMPLES)
+
+<img src="/techno/data/apache-airflow/airflow-docker-example-02.png" />
 
 ## Diving Deeper
 * [Airflow in Practice Stop Worrying Start Loving DAGs](https://www.youtube.com/watch?v=XD7euLOzKbs) | Youtube
+* [How to write your first DAG in Apache Airflow - Airflow tutorials](https://www.youtube.com/watch?v=2nhdhIYueIE) | Youtube 
 
 [Back](/techno/README.md)
