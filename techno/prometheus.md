@@ -1,4 +1,4 @@
-<img src="/techno/data/prometheus/prometheus-logo.png" align="right" width="20%" />
+<img src="/techno/data/prometheus/prometheus-logo.png" align="right" width="10%" />
 
 [Back](/techno/README.md)
 
@@ -9,7 +9,7 @@
 2. [Alternatives](#alternatives)
 3. [Conceptual Diagram](#conceptual-diagram)
 4. [Architectural Diagram](#architectural-diagram)
-5. [Example](#example)
+5. [Example: Running Prometheus in Docker](#example-running-prometheus-in-docker)
 6. [Diving Deeper](#diving-deeper)
 
 ## What is prometheus?
@@ -19,6 +19,7 @@ It logs real-time metrics to a time series database based on entry point content
 > Doc: https://prometheus.io/docs/introduction/overview/
 
 **Feature Checklist**
+
 * Open Source
 * Many Integrations - has exporters for PostgreSQL,  AWS, Kubernetes and many more. 
 * Powerful Queries
@@ -30,6 +31,7 @@ In 2016, Prometheus was the second project accepted into the <a href="https://ww
 The Prometheus monitoring system includes a rich, multidimensional data model, a concise and powerful query language called PromQL, an efficient embedded timeseries database, and over 150 integrations with third-party systems.
 
 **Components**
+
 The Prometheus ecosystem consists of multiple components, many of which are optional:
 * the main [Prometheus server](https://github.com/prometheus/prometheus) which scrapes and stores time series data
 * [client libraries](https://prometheus.io/docs/instrumenting/clientlibs/) for instrumenting application code
@@ -41,6 +43,7 @@ The Prometheus ecosystem consists of multiple components, many of which are opti
 Most Prometheus components are written in Go, making them easy to build and deploy as static binaries.
 
 **Wait, theres no authentication?!**
+
 Authentication is hard - the Prometheus team know this well, as such they have determined that authentication is outside of the scope of the project and it is onto you to deal with it.
 
 If metric data is deemed sensitive enough to require authentication my personal recommendations:
@@ -49,14 +52,15 @@ If metric data is deemed sensitive enough to require authentication my personal 
 * Basic Auth - if you are running node exporters using docker running a basic auth proxy on top will further limit access.
 
 **But what about colourful graphs?**
+
 Prometheus is essentially a wrapper around a time series database that allows collecting metrics from various exporters. As such there isn't a feature rich user interface to interact with. But worry not, Grafana has native support for Prometheus as a data source.
 
 <img src="/techno/data/prometheus/prometheus-grafana.png" width="40%" />
 
 ## Alternatives
-* (SaaS) [Dynatrace](https://www.dynatrace.com/)
-* (SaaS) [Datadog](https://www.datadoghq.com/)
-* (open source) [Zabbix](https://www.zabbix.com/)
+* (Software) [Dynatrace](https://www.dynatrace.com/)
+* (Software) [Datadog](https://www.datadoghq.com/)
+* (Open source) [Zabbix](https://www.zabbix.com/)
 
 ### Prometheus vs Zabbix
 Prometheus is open source monitoring software created by SoundCloud in July 2016. It is a benchmark application for controlling private cloud (OpenStack, OpenShift) or public cloud (Amazon Web Services, Microsoft Azure, Google Cloud) infrastructures. Developed since 1998, Zabbix is ​​also an open source monitoring system, which has been able to renew itself. Developed in PHP, it is in line with Nagios and MRTG. Given this history, it is considered less suitable for responding to big data issues.
@@ -64,7 +68,7 @@ Prometheus is open source monitoring software created by SoundCloud in July 2016
 ## Conceptual Diagram
 This diagram illustrates the architecture of Prometheus and some of its ecosystem components:
 
-<img src="/techno/data/prometheus/prometheus-conceptual-diagram.png" width="40%" />
+<img src="/techno/data/prometheus/prometheus-conceptual-diagram.png" width="50%" />
 
 Prometheus scrapes metrics from instrumented jobs, either directly or via an intermediary push gateway for short-lived jobs. It stores all scraped samples locally and runs rules over this data to either aggregate and record new time series from existing data or generate alerts. [Grafana](https://grafana.com/) or other API consumers can be used to visualize the collected data.
 
@@ -74,7 +78,9 @@ An simple example of monitoring a server resource usage (RAM, CPU, Disk Usage et
 <img src="/techno/data/prometheus/prometheus-architectural-diagram.png" width="40%" />
 
 ## Example: Running Prometheus in Docker
+All Prometheus services are available as Docker images on [Docker Hub](https://hub.docker.com/r/prom/prometheus/).
 
+Running Prometheus on Docker is as simple as `docker run -p 9090:9090 prom/prometheus`. This starts Prometheus with a sample configuration and exposes it on port 9090.
 
 ## Diving Deeper
 * [Monitoring with Prometheus](https://ordina-jworks.github.io/monitoring/2016/09/23/Monitoring-with-Prometheus.html)
