@@ -19,6 +19,7 @@ The One Pagers should roughly follow this structure:
 | [Apache NiFi](/techno/apache-nifi.md) | data management, ETL |
 | [AWS Cloud Development Kit (AWS CDK)](/techno/aws-cdk.md) | build, automation, infra as code |
 | [Podman](/techno/podman.md) | container engine |
+| [Prometheus](/techno/prometheus.md) | monitoring |
 | [HashiCorp Vault](/techno/hashicorp-vault.md) | vault, security, secret |
 | [HashiCorp Terraform](/techno/hashicorp-terraform.md) | build, automation, infra as code |
 | [HashiCorp Packer](/techno/hashicorp-packer.md) | build, automation, infra as code |
