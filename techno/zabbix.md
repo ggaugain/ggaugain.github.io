@@ -27,7 +27,7 @@ Zabbix uses several options to gather metrics, including agentless monitoring of
 * [Calculation and aggregation](https://www.zabbix.com/calculated_and_aggregate)
 * [End user web monitoring](https://www.zabbix.com/web_scenarios)
 
-<img src="/techno/data/zabbix/zabbix-collection.png" align="right" width="70%" /> <br /><br />
+<img src="/techno/data/zabbix/zabbix-collection.png" width="70%" /> <br />
 
 **Components**
 
@@ -56,7 +56,7 @@ However Zabbix remains a very complete and efficient solution.
 
 ## Conceptual Diagram
 
-<img src="/techno/data/zabbix/zabbix-conceptual-diagram.png" align="right" width="90%" />
+<img src="/techno/data/zabbix/zabbix-conceptual-diagram.png" width="90%" />
 
 ## Example: Running Zabbix in Docker
 Zabbix can be installed using different distributions of Linux, and even has a couple of choices for web servers and databases.<br />
