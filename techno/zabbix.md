@@ -29,6 +29,7 @@ Zabbix uses several options to gather metrics, including agentless monitoring of
 
 <img src="/techno/data/zabbix/zabbix-collection.png" align="right" width="70%" />
 
+<br />
 **Components**
 
 * Zabbix Server
@@ -59,7 +60,7 @@ However Zabbix remains a very complete and efficient solution.
 <img src="/techno/data/zabbix/zabbix-conceptual-diagram.png" align="right" width="90%" />
 
 ## Example: Running Zabbix in Docker
-Zabbix can be installed using different distributions of Linux, and even has a couple of choices for web servers and databases.
+Zabbix can be installed using different distributions of Linux, and even has a couple of choices for web servers and databases.<br />
 [This repository](https://github.com/zabbix/zabbix-docker) contains Dockerfile of Zabbix for Docker's automated build published to the public Docker Hub Registry.
 
 ## Diving Deeper
