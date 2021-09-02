@@ -27,9 +27,8 @@ Zabbix uses several options to gather metrics, including agentless monitoring of
 * [Calculation and aggregation](https://www.zabbix.com/calculated_and_aggregate)
 * [End user web monitoring](https://www.zabbix.com/web_scenarios)
 
-<img src="/techno/data/zabbix/zabbix-collection.png" align="right" width="70%" />
+<img src="/techno/data/zabbix/zabbix-collection.png" align="right" width="70%" /> <br /><br />
 
-<br />
 **Components**
 
 * Zabbix Server
