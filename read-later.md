@@ -1,4 +1,4 @@
-# Bookmark
+# Read Later
 
 * [Deploying Service Mesh in Production](https://www.infoq.com/presentations/adopting-service-mesh/)
 * [Top Infrastructure as Code tools for 2022](https://analyticsindiamag.com/top-infrastructure-as-code-tools-for-2022/)
@@ -20,6 +20,17 @@
 * [Les Échos - le no code](https://start-lesechos-fr.cdn.ampproject.org/c/s/start.lesechos.fr/amp/1373300)
 * [AWS Power Hour: Architecting](https://pages.awscloud.com/global-traincert-twitch-power-hour-architecting-q4.html)
 * [Zero to Jupyterhub in Kubernetes | Getting Started Guide](https://youtu.be/Da1qn7-RHvY)
+* [Comparatif Azure vs GCP vs AWS](https://youtu.be/adUIcWiHT-U)
+* [Azure API management ](https://davidsantiago.fr/azure-api-management-and-network/)
+* [Cloud security is not Cloud compliance!](https://www.linkedin.com/pulse/cloud-security-compliance-christophe-parisel)
+* [Certification DevOps Engineer Expert : A vous de jouer](https://www.linkedin.com/pulse/certification-devops-engineer-expert-vous-de-jouer-arnaud-morvillier )
+* [A Detailed Guide to Kubernetes PodSecurityPolicy in AWS EKS | by Tiexin Guo | DevOps Dudes | Medium](https://medium.com/devops-dudes/a-detailed-guide-to-kubernetes-podsecuritypolicy-in-aws-eks-71c66ded6375)
+* [7 Microservices Best Practices for Developers](https://dzone.com/articles/7-microservices-best-practices-for-developers)
+* [Générez automatiquement vos certificats Let's Encrypt dans Kubernetes](https://blog.zwindler.fr/2018/03/27/generez-automatiquement-vos-certificats-lets-encrypt-dans-kubernetes/)
+* [Kubernetes ingress, deep dive · Banzai Cloud](https://banzaicloud.com/blog/k8s-ingress/)
+* [Kubernetes Pod Security Policy, kube-psp-advisor | Sysdig](https://sysdig.com/blog/enable-kubernetes-pod-security-policy/)
+* []()
+* []()
 * []()
 * []()
 * []()
