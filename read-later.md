@@ -46,7 +46,3 @@
 * [Glossaire de l’apprenti(e) DevOps](https://www.damyr.fr/posts/glossaire-annonce/)
 * [AWS Well-Architected Labs](https://wellarchitectedlabs.com/)
 * [Red Hat La Démo Box](https://www.redhat.com/fr/global/france/demo-box?highlight=operator1)
-* []()
-* []()
-* []()
-* []()
