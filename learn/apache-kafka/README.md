@@ -95,6 +95,7 @@ Kafka is a hub that all components of an application can plug into to handle man
 * <a href="#/learn/apache-kafka/lab-replicating-data-between-two-kafka-clusters">Lab: Replicating Data Between Two Kafka Clusters</a>
 * [Command-examples](./command-examples.md)
 * [Kafka Tutorials (Confluent.io)](https://kafka-tutorials.confluent.io/)
+* [Deep Dive into Saga Transactions with Kafka Streams and Spring Boot](https://piotrminkowski.com/2022/02/07/deep-dive-into-saga-transactions-with-kafka-streams-and-spring-boot/)
 
 ## Blog Posts and Talks
 * [How Heroku Operates its Multi-Tenant Apache Kafka Services](https://blog.heroku.com/how-heroku-operates-its-multi-tenant-apache-kafka-services)
