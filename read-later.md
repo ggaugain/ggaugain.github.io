@@ -1,5 +1,11 @@
 # Read Later
 
+## Various Docs
+
+* [Free vector icons](https://www.flaticon.com/)
+* [Public Cloud Services Comparison](https://comparecloud.in/)
+* [Map the Cloud](https://mapthe.cloud/)
+* [Jerry Hargrove - Cloud Diagrams & Notes](https://www.awsgeek.com/)
 * [Deploying Service Mesh in Production](https://www.infoq.com/presentations/adopting-service-mesh/)
 * [Top Infrastructure as Code tools for 2022](https://analyticsindiamag.com/top-infrastructure-as-code-tools-for-2022/)
 * [Autoscaling on Kubernetes with KEDA and Kafka](https://piotrminkowski.com/2022/01/18/autoscaling-on-kubernetes-with-keda-and-kafka/)
@@ -32,3 +38,15 @@
 * [Data Science with Python & JupyterHub on Kubernetes - Part 1 | VMware Tanzu Developer Center](https://tanzu.vmware.com/developer/blog/data-science-with-python-jupyterhub-on-kubernetes-part-1/)
 * [Drop the bastion in the clouds (AWS, Azure (kinda), and GCP) | by rav3n | Medium](https://rav3n.medium.com/drop-the-bastion-in-the-clouds-aws-azure-kinda-and-gcp-e589df7d4fec)
 * [5 GitHub Projects to make you a better DevOps Engineer ⚡ - DEV Community](https://dev.to/ankit01oss/5-github-projects-to-make-you-a-better-devops-engineer-2fkl)
+
+## Growth & Development
+
+* [Play with Docker (a simple, interactive and fun playground to learn Docker)](https://labs.play-with-docker.com/)
+* [Project Awesome](https://project-awesome.org/)
+* [Glossaire de l’apprenti(e) DevOps](https://www.damyr.fr/posts/glossaire-annonce/)
+* [AWS Well-Architected Labs](https://wellarchitectedlabs.com/)
+* [Red Hat La Démo Box](https://www.redhat.com/fr/global/france/demo-box?highlight=operator1)
+* []()
+* []()
+* []()
+* []()
